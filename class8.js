@@ -83,3 +83,78 @@
 
     // 5. substring : similar to slice function . 
 
+
+
+    // 6. touppercase() : the touppercase function is used to convert the uppercase letter of a string .
+    
+    // let a="Groot academy"
+    // let b=a.toUpperCase()
+    // document.write(b)
+
+    // 7. tolowercase() : 
+
+    // let a="GROOT ACADEMY"
+    // let b=a.toLowerCase()
+    // document.write(b)
+
+
+    // 8. trim(): the trim method is used to remove the extra space from both . 
+
+    // let a="      Groot academy   "
+    // let newstr=a.trim()
+    // let b=newstr.length 
+    // document.write(a)
+
+
+    // 9. trimstart() : 
+
+    // let a="      Groot academy   "
+    // let newstr=a.trimStart()
+    // let b=newstr.length 
+    // document.write(b)
+
+    // 10 : trimend() : 
+    // let a="      Groot academy   "
+    // let newstr=a.trimEnd()
+    // let b=newstr.length 
+    // document.write(b)
+
+    // 11. indexof : the indexof method is used to access the index number . 
+    // let a="jatin"
+    // let b=a.indexOf("j")
+    // document.write(b)
+
+
+
+    // 12. includes :the includes function is used to check the letter present or not . 
+    
+    // let a="Groot academy"
+    // let b=a.includes("root")
+    // document.write(b)
+
+    // 13. search() : the search method is used to access the index number .
+    // let a="jatin"
+    // let b=a.search("i")
+    // document.write(b) 
+
+
+    // 14. startwith() : 
+
+    // let a="Groot academy"
+    // let b=a.startsWith("oot")
+    // document.write(b)
+
+    // 15. endswith :
+    // let a="Groot academy"
+    // let b=a.endsWith("mr")
+    // document.write(b)
+
+
+
+    // looping : 
+    // let a="groot academy sdkjhfkjfhjkh"
+    // let lastindex=a.length-1
+    // for(i=0;i<=lastindex;i++){
+    //     document.write(a[i],"<br/>")
+    // }
+
