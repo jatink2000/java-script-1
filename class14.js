@@ -32,8 +32,6 @@ row2data4.innerHTML="$1000"
 
 
 
-
-
 // select / access : 
 let mytable=document.getElementById("table")
 
