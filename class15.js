@@ -54,5 +54,56 @@ function onn3() {
 }
 
 
+// 4. onchange event : the onchnage event is used to excute a function when input value is changed . 
+function groot(){
+    let a= document.getElementById("input")
+    let b=a.value
+    document.getElementById("name").innerHTML=b
+}  
 
-// 2. timing events 
+
+
+// 2. timing events : java script can excute the code in time interval this is known as timing events . 
+
+    // 1. settimeout :  the settimeout function excute the code give time interval only single time . 
+        // syntex : 
+
+        // settimeout(function,timeinterval)
+
+        // function groot1(){
+        //     alert("hello java script")
+        // }
+
+        // let d=setTimeout(()=>{
+        //     groot1()
+        // },5000)
+
+
+    // 1. cleartimeout : the cleartimeout is used to stop the settimeout . 
+        // snytex : 
+            // clearTimeout(settimeout_variable)
+
+            // function clear_time(){
+            //     clearTimeout(d)
+            // }
+        
+
+
+    // 2. setinterval : the setinterval is used to excute a code repeated given time interval . 
+        // setInterval(function,timeinterval)
+
+        function groot2(){
+            alert("hello java script")
+        }
+
+        let e=setInterval(()=>{
+            groot2()
+        },5000)
+     
+    // 1. clearinterval : the clearinterval is used to stop the setinterval . 
+        // snytex : 
+        //     clearinterval(setinterval_variable)
+
+            function clear_time2(){
+                clearInterval(e)
+            }
